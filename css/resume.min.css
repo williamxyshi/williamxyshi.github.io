@@ -183,3 +183,10 @@ a:focus,
 a:hover {
     color: #824027
 }
+
+.btn-style { 
+    margin: 10px;
+    &:hover {
+        color: #000000;
+    }
+}
