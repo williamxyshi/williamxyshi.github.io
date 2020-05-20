@@ -1,3 +1,3 @@
 # williamxyshi.com
 
-My business card
+My online business card and also tea blog :)
