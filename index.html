@@ -1,399 +1,185 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Mini Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700|Playfair+Display:400,700,900" rel="stylesheet">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
 
-  <title>William Shi's Business Card</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  
+  <div class="site-wrap">
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">William Shi</span>
-      <span class="d-none d-lg-block">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experiences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-      </ul>
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
     </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">William
-          <span class="text-primary">Shi</span>
-        </h1>
-        <div style="margin-bottom: 1em !important;"class="subheading mb-5">Guelph, ON · (519) 827-5978 ·
-          <a href="mailto:name@email.com">williamxyshi@gmail.com</a>
-        </div>
-        <img class="will-picture" src="img/face.png">
-        <p style="margin-top: 10px;"class="lead mb-5">I am a software developer as well as a mechatronics engineering student at the University of Waterloo. I love mobile and game development, sipping on tea, playing chess and being an armchair historian.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/williamxyshi/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/williamxyshi">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Work Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Android Developer Intern</h3>
-            <div class="subheading mb-3">Nanoleaf</div>
-            <p>Worked in a team of two to deliver production ready code in a fast paced agile development cycle. Delivered bug fixes as well as major features to a user base of over 200,000. Developed closely alongside cloud, embedded and customer service teams to solve problems and close tickets. Over the course of the work term, helped increase the app's Google Play rating from 2.1⭐ to 3.8⭐. Worked primarily in Kotlin and Java.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Sept 2019 - Dec 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Software Developer Intern</h3>
-            <div class="subheading mb-3">Autodesk Inc</div>
-            <p>Software developer in C++ for Autodesk Flame, a 20 year old VFX finishing software with a massive codebase. Developed alongside the usability team, working to help improve user experience and increase productivity. Contributed to highly requested projects from the customer base and communicated with designers and product managers to deliver polished end code.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan 2019 - April 2019</span>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Personal Projects</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">🏡 Home Server
-              <a class="btn-style" href="https://github.com/williamxyshi/HomeServer">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Django - Python - MongoDB - React (?) - JavaScript (?) - Android (?) - Kotlin (?)</div>
-            <p>
-            Home Server is kind of like my personal Google Assistant that I can mold into whatever I want. 
-            Basic features are going to include
-            setting timers, reminders, checking the weather and playing music.
-            Not much has been done so far, but I also plan on experimenting with web hooks with Discord and Slack, the Facebook Messenger, Spotify
-            GMail and Google Calender API's to help built an app that can handle my online services. Theres also opportunities to syncronize
-            with my Nanoleaf Light Panels through Nanoleaf's API. 
-            <br><br>
-            Web server backend is built with Django and MongoDB.
-            <br>
-            The front end technologies have also not been decided yet, but a web client built with React alongside an Android app built with Kotlin
-            seems like what I'm going to go with. 
-
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan 2019 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">♚ Wiz Auto Chess 
-              <a class="btn-style" href="https://github.com/williamxyshi/WizAutoChess">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Kotlin - Android - Flask - Python - AWS - MongoDB Atlas</div>
-            <p>
-            Wiz Auto Chess is a multiplayer mobile auto chess game set in a medieval fantasy setting.
-            Developed and deployed a Flask web application on AWS (Elastic Beanstalk) which interfaces data stored in MongoDB Atlas. 
-            Engineered API endpoints to publish data to mobile app, as well as a web server to manage and save game data.
-            <br>
-            Android app built with Kotlin, and interacts with the web server through the Retrofit library. 
-            This game is still a work in progress, and sprites/animations are the current focus. 
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan 2019 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">🍎 ShoppingList
-              <a class="btn-style" href="https://github.com/williamxyshi/ShoppingList">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Django - Python - SQLite - React - JavaScript - Axios js</div>
-            <p>
-              I live in a house of 7 boys, and we frequently run out of food (Most Recently: rice, <strike> coffee</strike> ,<strike>bagels</strike>). When we do go shopping, things often get forgotten
-              (Most Recently: rice, <strike> coffee</strike> ,<strike>bagels</strike>)
-              as we have no good way of tracking what everybody needs. To combat this, I built ShoppingList to allow us to compile a communal
-              shopping list that we can all reference. The data is stored in SQLite, and is interfac ed by a Django web server. 
-              <br>
-              The server exposes REST API endpoints
-              which are then called by our React REST client using Axios. 
-              <br>
-              The frontend client allows users to view the ShoppingList, add to the ShoppingList and mark items as bought.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Jan 2020</span>
-          </div>
-        </div>
     
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">🍵 Tea Buddy
-              <a class="btn-style" href="https://github.com/williamxyshi/TeaBuddy">
-                <i class="fab fa-github"></i>
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.willjane.teabuddy&hl=en_CA"><i class="fab fa-google-play"></i></a>
-
-            </h3>
-            <div class="subheading mb-3">Kotlin - Android - Firebase - Realm - WikiAPI</div>
-            <p>TeaBuddy is an Android app that allows users to explore the fascinating world of tea. Explore exotic teas, set brew timers to keep track of your own tea, post to the TeaBuddy social media and interact with other users. Tea, user and community post data saved in Firebase and saved locally in Realm. Tea details and information pulled from the Wikipedia API with the Retrofit library. 
-
-            Now available on the <a href="https://play.google.com/store/apps/details?id=com.willjane.teabuddy&hl=en_CA"> Google Play Store </a>
-            </p>
+    <header class="site-navbar" role="banner">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          
+          <div class="col-12 search-form-wrap js-search-form">
+            <form method="get" action="#">
+              <input type="text" id="s" class="form-control" placeholder="Search...">
+              <button class="search-btn" type="submit"><span class="icon-search"></span></button>
+            </form>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Dec 2019 - Jan 2020</span>
+
+          <div class="col-4 site-logo">
+            <a href="index.html" class="text-black h2 mb-0">Will's Tea House</a>
+          </div>
+
+          <div class="col-8 text-right">
+            <nav class="site-navigation" role="navigation">
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block mb-0">
+                <li><a href="category.html">Home</a></li>
+                <li><a href="category.html">Broken Link</a></li>
+                <li class="d-none d-lg-inline-block"><a href="#" class="js-search-toggle"><span class="icon-search"></span></a></li>
+              </ul>
+            </nav>
+            <a href="#" class="site-menu-toggle js-menu-toggle text-black d-inline-block d-lg-none"><span class="icon-menu h3"></span></a></div>
+          </div>
+
+      </div>
+    </header>
+    
+    
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row align-items-stretch retro-layout-2">
+          <div class="col-md-4">
+            <a href="single.html" class="h-entry mb-30 v-height gradient" style="background-image: url('images/img_1.jpg');">
+              
+              <div class="text">
+                <h2>The AI magically removes moving objects from videos.</h2>
+                <span class="date">July 19, 2019</span>
+              </div>
+            </a>
+   
+          </div>
+          <div class="col-md-4">
+            <a href="single.html" class="h-entry img-5 h-100 gradient" style="background-image: url('images/img_v_1.jpg');">
+              
+              <div class="text">
+                <div class="post-categories mb-3">
+                  <span class="post-category bg-danger">Travel</span>
+                  <span class="post-category bg-primary">Food</span>
+                </div>
+                <h2>The AI magically removes moving objects from videos.</h2>
+                <span class="date">July 19, 2019</span>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="single.html" class="h-entry mb-30 v-height gradient" style="background-image: url('images/img_3.jpg');">
+              
+              <div class="text">
+                <h2>The 20 Biggest Fintech Companies In America 2019</h2>
+                <span class="date">July 19, 2019</span>
+              </div>
+            </a>
+            <a href="single.html" class="h-entry v-height gradient" style="background-image: url('images/img_4.jpg');">
+              
+              <div class="text">
+                <h2>The 20 Biggest Fintech Companies In America 2019</h2>
+                <span class="date">July 19, 2019</span>
+              </div>
+            </a>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">True Shoe
-            <a class="btn-style" href="https://github.com/williamxyshi/true-shoe">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Flutter - Dart - OpenWeatherAPI - Firebase</div>
-            <p>True Shoe is a cross platform mobile app built with Flutter that translates the weather to shoes. 
-              Users can upload their shoes to firebase after authentication. Pulls current weather information based on user location with the OpenWeatherAPI, and then recommends a shoe based on the weather conditions. 
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Dec 2019</span>
+    <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <h2>Recent Posts</h2>
           </div>
         </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div class="entry2">
+              <a href="single.html"><img src="images/img_1.jpg" alt="Image" class="img-fluid rounded"></a>
+              <div class="excerpt">
+              <span class="post-category text-white bg-secondary mb-3">Politics</span>
 
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">tankagons.io
-            <a class="btn-style" href="https://github.com/williamxyshi/tankagons.io">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Python - Pygame - Socket</div>
-            <p>tankagons is an free for all online multiplayer (20 player support) python game with basebuilding, fully destructable terrain and RPG elements. Features the ability to customize tanks to gain an advantage over other players as well as intelligent enemy AI with pathfinding algorithms and dynamic strategies. Learned and applied client/server logic, game design patterns and basic networking architecture. 
-            </p>
+              <h2><a href="single.html">The AI magically removes moving objects from videos.</a></h2>
+              <div class="post-meta align-items-center text-left clearfix">
+                <figure class="author-figure mb-0 mr-3 float-left"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
+                <span class="d-inline-block mt-1">By <a href="#">Carrol Atkinson</a></span>
+                <span>&nbsp;-&nbsp; July 19, 2019</span>
+              </div>
+              
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2019 - July 2019</span>
-          </div>
-        </div>
+     
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Marshal Lannes Simulator
-            <a class="btn-style" href="https://github.com/williamxyshi/MarshalJeanLannesSim">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">C++ - SDL2 - Make</div>
-            <p>Marshal Lannes Simulator is a 2D platforming game where the player plays as Napoleons best Marshal: Jean Lannes. Historically, he was killed by a cannonball when mourning the loss of a friend. In this game, the player plays as Jean Lannes as must dodge incoming cannon balls to reach the cannon to win. Built with C++ and SDL2.
-            </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Feb 2019</span>
-          </div>
-        </div>
 
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Poker Bot</h3>
-            <div class="subheading mb-3">C++ - RobotC - Lego Mindstorms EV3</div>
-            <p>Built a fully functional poker robot that is capable of dealing cards, driving to players and refereeing a poker game. Used algorithm design and object oriented programming to program the robot. 
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">Sept 2018 - Dec 2018</span>
-          </div>
-        </div>
 
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Europa Universalis Remade
-            <a class="btn-style" href="https://github.com/williamxyshi/EURemade">
-                <i class="fab fa-github"></i>
-              </a>
-            </h3>
-            <div class="subheading mb-3">Python - TkInter</div>
-            <p>Learned and programmed in Python to recreate my favourite video game, Europa Universalis 4 myself. Independently learned, designed and then developed a video game with improvements to mechanics I didn't like in the original game
+  
+          <div class="col-lg-4 mb-4">
+            <div class="entry2">
+              <a href="single.html"><img src="images/img_4.jpg" alt="Image" class="img-fluid rounded"></a>
+              <div class="excerpt">
+              <span class="post-category text-white bg-danger mb-3">Sports</span>
+
+              <h2><a href="single.html">The AI magically removes moving objects from videos.</a></h2>
+              <div class="post-meta align-items-center text-left clearfix">
+                <figure class="author-figure mb-0 mr-3 float-left"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
+                <span class="d-inline-block mt-1">By <a href="#">Carrol Atkinson</a></span>
+                <span>&nbsp;-&nbsp; July 19, 2019</span>
+              </div>
+              
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo sunt tempora dolor laudantium sed optio, explicabo ad deleniti impedit facilis fugit recusandae! Illo, aliquid, dicta beatae quia porro id est.</p>
+                <p><a href="#">Read More</a></p>
+              </div>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2017 - Dec 2017</span>
-          </div>
+
         </div>
 
       </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section style="flex-direction: column"class="resume-section p-3 p-lg-5 d-flex align-items-left" id="skills">
-      <div ><h2>Skills</h2></div> <br>
-      <div style="display: inline-flex;"class="w-100">
-        <div class="w-33">
-        <div class="subheading mb-3">Languages</div>
-        <ul style="list-style: unset;" class="fa-ul mb-0">
-          <li>
-            Kotlin</li>
-          <li>
-            Java</li>
-          <li>
-            C++</li>
-          <li>
-            Dart</li>
-          <li>
-            C/C#</li>
-          <li>
-            Python</li>
-          <li>
-            JavaScript</li>
-          <li>
-            HTML/CSS</li>
-
-        </ul>
-      </div>
-      <div class="w-33">
-
-        <div class="subheading mb-3">Tools and Technologies</div>
-        <ul style="list-style: unset;" class="fa-ul mb-0">
-          <li>
-            Android Studio</li>
-          <li>
-            Flutter</li>
-          <li>
-            Git</li>
-          <li>
-            Jira</li>
-          <li>
-            AWS</li>
-          <li>
-            Google Cloud Platform</li>
-          <li>
-            MongoDB/Realm/SQLite</li>
-          <li>
-            Flask</li>
-          <li>
-            Docker</li>
-        
-          <li>
-            OpenGL</li>
-          <li>
-            InVision</li>
-
-
-
-        </ul>
-      </div>
-      <div class="w-33">
-
-        <div class="subheading mb-3">Practices</div>
-        <ul style="list-style: unset;" class="fa-ul mb-0">
-          <li>
-            MVVM</li>
-          <li>
-            MVC</li>
-          <li>
-            Material Design</li>
-          <li>
-            Agile</li>
-          <li>
-            Object Oriented Programming</li>
-          <li>
-            Unix/OSX development</li>
-          <li>
-            REST</li>
-        </ul>
-      </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>When I'm not programming or studying for school, I enjoy tasting new teas, playing chess and learning about history.</p>
-        <p class="mb-0">My favourite teas are Tie Guan Yin, LongJing and Jasmine Green (out of the 30+ I own), I'm quite terrible at chess (but improving (I think)) and I'm especially interested in Napoleonic history (and World War 1 (and Austria-Hungary)).</p>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
+    </div>
+    
+    
   </div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/main.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
 
-</body>
-
+  </body>
 </html>
