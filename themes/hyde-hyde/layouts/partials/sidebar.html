@@ -2,15 +2,15 @@
   <div class="container text-center {{ if .Site.Params.sidebarSticky }}sidebar-sticky{{ end }}">
     <div class="sidebar-about text-center">
       <a href="{{ .Site.BaseURL }}"><h1 class="brand">{{ .Site.Title }}</h1></a>
-      {{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="img-circle headshot center"> {{ end }}
+      <div class="img-headshot-container">
+      {{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="center"> {{ end }}
+      </div>
       <p class="lead">
         {{ with .Site.Params.description }} {{.}} {{ else }} Created by William Shi {{end}}
       </p>
 
-      <div class="sidebar-photo">
-        <img src="/static/me.jpg" alt="Author Image">
   
-      </div>
+  
     </div>
 
     {{ partial "sidebar_menu.html" . }}

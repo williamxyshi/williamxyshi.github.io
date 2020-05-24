@@ -2,3 +2,32 @@ baseURL = "http://williamxyshi.com/"
 languageCode = "en-us"
 title = "Will's Tea House"
 theme = "hyde-hyde"
+
+[params]
+    author = "William Shi"
+    title = "Will's Tea House"
+    # description = "..."
+    authorimage = "/me.jpg"
+    mainSections = ["posts"]
+
+## Social Accounts
+[params.social]
+    github = "williamxyshi"
+    instagram = "<username>"
+    xing = "<username>"
+    linkedin = "<username>"
+    twitter = "<username>"
+    facebook = "<William Shi>"
+    email = "williamxyshi@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
