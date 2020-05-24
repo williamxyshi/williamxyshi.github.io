@@ -10,10 +10,18 @@ Welcome! If you’re looking for my old website, unfortunately thats gone for go
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;favourite tea: dragon pearls or genmaicha
 
-Here's a photo of my tea collection:
+**Here's my tea collection:**
 
-Here's a photo of my favourite mug:
+![collection1](/collection1.jpg)
+![collection2](/collection2.jpg)
+![collection3](/collection3.jpg)
 
-Here's a photo of me!:
+**Here's my favourite mug:**
+
+![favmug](/favmug.jpg)
+
+**Here's a photo of me!:**
+![melol](/melol.jpg)
+
 
 Thanks for reading!
