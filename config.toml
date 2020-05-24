@@ -13,11 +13,11 @@ theme = "hyde-hyde"
 ## Social Accounts
 [params.social]
     github = "williamxyshi"
-    instagram = "<username>"
+    instagram = "walliamshi"
     xing = "<username>"
-    linkedin = "<username>"
+    linkedin = "williamxyshi"
     twitter = "<username>"
-    facebook = "<William Shi>"
+    facebook = "williamheylook"
     email = "williamxyshi@gmail.com"
 
 ## Main Menu
