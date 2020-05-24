@@ -3,15 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://williamxyshi.com/categories/</loc>
+    <loc>https://williamxyshi.github.io/posts/notanad/</loc>
+    <lastmod>2020-05-21T22:54:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://williamxyshi.com/tags/</loc>
+    <loc>https://williamxyshi.github.io/posts/</loc>
+    <lastmod>2020-05-21T22:54:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://williamxyshi.com/</loc>
+    <loc>https://williamxyshi.github.io/</loc>
+    <lastmod>2020-05-21T22:54:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://williamxyshi.github.io/posts/grandopening/</loc>
+    <lastmod>2020-05-20T23:22:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://williamxyshi.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://williamxyshi.github.io/tags/</loc>
   </url>
   
 </urlset>
