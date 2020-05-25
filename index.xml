@@ -2,21 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Will&#39;s Tea House</title>
-    <link>https://williamxyshi.github.io/</link>
+    <link>/</link>
     <description>Recent content on Will&#39;s Tea House</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2020 22:54:30 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2020 20:11:52 -0400</lastBuildDate>
     
-	<atom:link href="https://williamxyshi.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Tetley&#39;s Earl Grey review</title>
+      <link>/posts/tetleyearlgrey/</link>
+      <pubDate>Sat, 23 May 2020 20:11:52 -0400</pubDate>
+      
+      <guid>/posts/tetleyearlgrey/</guid>
+      <description>Can&amp;rsquo;t go wrong with some earl grey loaded with milk and sugar!
+tea: Earl Grey type: bagged black tea, scented tea house: Tetley 80 tea bags for 6 bucks?! Hard to say no to that value. It&amp;rsquo;s true that the flavor doesn&amp;rsquo;t quite compare to other earl greys, but with sugar and milk added in, it tastes awesome!
+Overall rating: 6.5/10, classic liquor but isn&amp;rsquo;t special </description>
+    </item>
+    
+    <item>
+      <title>Tai Ping Hou Kui review</title>
+      <link>/posts/taipinghoukui/</link>
+      <pubDate>Fri, 22 May 2020 19:48:40 -0400</pubDate>
+      
+      <guid>/posts/taipinghoukui/</guid>
+      <description>Make sure to get yourself a cuppa before reading on! tea: Tai Ping Hou Kui type: loose leaf green tea tea house: Tao Tea Leaf This tea is EXTREMELY subtle, but very clear in its taste! Both the scent and taste are much less apparent, but its freshness and floral notes are easily distinguishable. It’s sweet, and has almost a ‘warming-soul’ taste to it, much like the feel you get from chai.</description>
+    </item>
+    
+    <item>
       <title>Not an Ad</title>
-      <link>https://williamxyshi.github.io/posts/notanad/</link>
+      <link>/posts/notanad/</link>
       <pubDate>Thu, 21 May 2020 22:54:30 -0400</pubDate>
       
-      <guid>https://williamxyshi.github.io/posts/notanad/</guid>
+      <guid>/posts/notanad/</guid>
       <description>Hey y’all! Hope you’re doing good! If you don’t have some tea in front of you right now, stop reading and go brew some! Today I’m sipping on some Tai Ping Hou Kui that I just got - review coming soon, so I won’t blab about it.
 Just wanted to let everyone know about some tea related apps I’ve created:
 TeaBuddy, a tea companion app on Android
@@ -25,10 +45,10 @@ Gongfu Tea Timer, a Gongfu tea timer app I threw together for a user on r/tea</d
     
     <item>
       <title>Grand Opening</title>
-      <link>https://williamxyshi.github.io/posts/grandopening/</link>
+      <link>/posts/grandopening/</link>
       <pubDate>Wed, 20 May 2020 23:22:12 -0400</pubDate>
       
-      <guid>https://williamxyshi.github.io/posts/grandopening/</guid>
+      <guid>/posts/grandopening/</guid>
       <description>Welcome! If you’re looking for my old website, unfortunately thats gone for good now, and in its place is what I hope to be a space where I can post my thoughts on anything related to tea.
 About me:  name: William Shi
  favourite tea: dragon pearls or genmaicha
