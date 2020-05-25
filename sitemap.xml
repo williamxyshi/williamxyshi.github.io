@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-05-24T20:32:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tieguanyin/</loc>
+    <lastmod>2020-05-24T20:32:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-05-24T20:32:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tetleyearlgrey/</loc>
+    <lastmod>2020-05-23T20:11:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/taipinghoukui/</loc>
+    <lastmod>2020-05-22T19:48:40-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/notanad/</loc>
+    <lastmod>2020-05-21T22:54:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/grandopening/</loc>
+    <lastmod>2020-05-20T23:22:12-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>
