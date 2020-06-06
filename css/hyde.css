@@ -62,7 +62,7 @@ pre {
   text-align: center;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
-  background-color: #052c00;
+  background-color: #0d0d0d;
 }
 @media (min-width: 48em) {
   .sidebar {
